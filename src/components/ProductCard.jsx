@@ -25,7 +25,7 @@ const ProductCard = ({ item }) => {
           <h3 className="text-sm text-gray-800 line-clamp-1">{title}</h3>
           <p className="mt-1 text-sm text-gray-500 line-clamp-1">{category}</p>
         </div>
-        <p className="text-sm font-medium text-gray-900">{price} $</p>
+        <p className="text-sm font-medium text-gray-800">{price} $</p>
       </div>
     </div>
   );
